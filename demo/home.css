@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+  
+}
+html,
+body{
+    height: 100vh;
+    width: 100%;
+}
+#myVideo{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+}
+.main{
+    position: relative;
+
+}
+.heading{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.heading h1{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(255, 0, 98),
+        0 0 82px rgb(255, 0, 98),
+        0 0 92px rgb(255, 0, 98),
+        0 0 102px rgb(255, 0, 98),
+        0 0 151px rgb(255, 0, 98);
+ position: relative;
+ font-size: 5em;
+ 
+}
+.btn-explore {
+    font-size: 2em;
+    margin-top: 3em;
+    text-decoration: none;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    background-color:rgb(255, 0, 98) ;
+    padding: 1em;
+    border-radius: 5em;
+    transition: 0.5s;
+  }
+  .btn-explore:hover{
+    background-color: aliceblue;
+    color: rgb(255, 0, 98);
+    
+  }
